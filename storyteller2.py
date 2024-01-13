@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Replace "YOUR_OPENAI_API_KEY" with your actual OpenAI API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # Set page title and favicon
 st.set_page_config(page_title="AI Storyteller", page_icon="📖")

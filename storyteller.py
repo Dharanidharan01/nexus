@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # Set page title and favicon
 st.set_page_config(page_title="AI Storyteller", page_icon="📖")
@@ -36,12 +36,24 @@ if st.button("Generate Story and Images"):
             st.subheader(f"**{user_input_title}**")
             st.write(response.choices[0].text)
 
-            # Use DALL·E to generate images based on the story
-            image_response = client.images.generate(
+            generated_text = response.choices[0].text
+            words_per_chunk = 100
+
+# Split the generated text into chunks of 100 words
+            chunks = [generated_text[i:i + words_per_chunk] for i in range(0, len(generated_text), words_per_chunk)]
+
+# Use DALL·E to generate images based on each chunk
+            for i, chunk in enumerate(chunks):
+                image_response = client.images.generate(
                 model="dall-e-2",
-                prompt=response,  # Use the story title as the prompt for DALL·E
-                n=5
-            )
+                prompt=chunk,
+                n=5  # Generating one image for each chunk
+    )
+                
+
+    # Process or save the image_response as needed for your application
+    # The generated image for the i-th chunk can be accessed using image_response.choices[0].url or other attributes
+
 
             # Display all the generated images in a column
             st.subheader("Generated Images:")
