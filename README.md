@@ -1,7 +1,7 @@
 # AI Storyteller
 
 ## Presentation link
-[Canva]([https://beta.openai.com/](https://www.canva.com/design/DAF5yqG6E0E/Fd2btwoMmynC9iqwdPWQMw/edit?utm_content=DAF5yqG6E0E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+[Canva](https://www.canva.com/design/DAF5yqG6E0E/Fd2btwoMmynC9iqwdPWQMw/edit?utm_content=DAF5yqG6E0E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ## Overview
