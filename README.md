@@ -1,7 +1,7 @@
 # AI Storyteller
 
 ## ZIP file link
-[Zip_link ](https://www.canva.com/design/DAF5yqG6E0E/Fd2btwoMmynC9iqwdPWQMw/edit?utm_content=DAF5yqG6E0E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://drive.google.com/drive/folders/1BImhZh18cWjjMLifcsh0NxIwgKeEM4Cg?usp=sharing)
+[Zip_link ](https://drive.google.com/drive/folders/1BImhZh18cWjjMLifcsh0NxIwgKeEM4Cg?usp=sharing)
 
 
 ## Presentation link
