@@ -1,5 +1,9 @@
 # AI Storyteller
 
+## Presentation link
+[Canva]([https://beta.openai.com/](https://www.canva.com/design/DAF5yqG6E0E/Fd2btwoMmynC9iqwdPWQMw/edit?utm_content=DAF5yqG6E0E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+
+
 ## Overview
 
 AI Storyteller is a web application that uses OpenAI's GPT-3.5-turbo-instruct engine to generate stories based on user prompts and selected emotions. The application also integrates HumeStreamClient for capturing facial emotions using a webcam and DALL·E for generating images related to the generated story.
