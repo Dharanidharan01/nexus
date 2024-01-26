@@ -12,7 +12,7 @@ async def capture_and_save_image(file_path):
 
 async def capture_emotion():
     await capture_and_save_image("./extra/emotion.jpg")
-    client = HumeStreamClient("AVGYpkETOCN8Zw9NQoV0ePFz3K4O6BGdVpkFEhao342dddZK")
+    client = HumeStreamClient("api_key")
     config = FaceConfig(identify_faces=True)
     
     async with client.connect([config]) as socket:
