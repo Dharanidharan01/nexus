@@ -7,7 +7,7 @@ from face import capture_emotion
 
 
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 # Set page title and favicon
 st.set_page_config(page_title="AI Storyteller", page_icon=":book:")
